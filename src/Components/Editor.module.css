@@ -1,0 +1,44 @@
+.main {
+  flex: 0.3;
+  word-wrap: break-word;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-right: 10px;
+  background-color: rgba(39, 39, 40, 0.783);
+  width: max-content;
+  padding-bottom: 3px;
+}
+p {
+  margin: 0;
+  margin-right: 5px;
+}
+
+.logo {
+  background-color: red;
+  padding-left: 7px;
+  padding-right: 7px;
+  border-radius: 3px;
+  height: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: black;
+  font-size: small;
+  font-weight: bold;
+}
+
+.title {
+  font-size: large;
+  position: relative;
+  bottom: 3px;
+  font-weight: bold;
+}
+
+.controlledEditor {
+  flex-wrap: wrap;
+  word-wrap: break-word !important;
+  background-color: yellow;
+}

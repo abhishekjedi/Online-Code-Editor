@@ -1,0 +1,16 @@
+.main {
+  height: 60vh;
+  width: 100%;
+  margin: 0;
+  background-color: black;
+  color: white;
+}
+.image {
+  height: 80px;
+}
+.Editor {
+  display: flex;
+  justify-content: space-around;
+
+  height: 100%;
+}
